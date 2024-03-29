@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width" />
+    <style>
+        body {
+            background-color: red;
+        }
+        
+    </style>
+    <!--<link rel="stylesheet" href="~/wwwroot/css/main_css.css" type="text/css" />-->
+    <title>Index</title>
+</head>
+<body>
+    <div class="third_page">
+        <div class="third_page_center">
+            <div class="select">
+                Let’s select preferred schedule
+            </div>
+            <div class="variants">
+                <div class="variant_1">
+                    <div class="tablesheet">
+                        <p>@Model[0].QuantityDreams</p>
+                    </div>
+                    <button class="button_result_selection">
+                        Select
+                    </button>
+                </div>
+                <div class="variant_2">
+                    <div class="tablesheet">
+
+                    </div>
+                    <button class="button_result_selection">
+                        Select
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

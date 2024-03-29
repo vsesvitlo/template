@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="first_information">
+        <div class="first_page_center">
+            <div class="information">Please, choose your child`s birthday 	</div>
+            <div class="choose_date">
+                <form action="/Home/FirstForm" method="post">
+                    <input type="date" id="name" name="name" required minlength="8" maxlength="8" size="10" required pattern="\d{4}-\d{2}-\d{2} onfocus="(this.type='date')" />
+                    <button class="button" type="submit">
+                        FREE regime calculation
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
